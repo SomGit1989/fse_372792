@@ -11,7 +11,7 @@ namespace PurchaseOrderProcessingSystem.BC
         PurchaseOrderDAC purchaseOrderDAC = new PurchaseOrderDAC();
         public bool processCreatePurchaseOrder(PurchaseProcessDetail purchaseProcessDetail)
         {
-            var result=purchaseOrderDAC.createPurchaseOrder(purchaseProcessDetail);
+            var result = purchaseOrderDAC.createPurchaseOrder(purchaseProcessDetail);
             return result;
         }
 
